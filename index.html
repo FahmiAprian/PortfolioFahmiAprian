@@ -2,138 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Tugas1 Kecerdasan Buatan</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-        <div class="wrapper">
-            <header>
-                <div class="logo">
-                    <img src="./images/logo.png" alt="">
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#">My Life</a></li>
-                        <li><a href="#">My project</a></li>
-                        <li><a href="#">My goal</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Photos</a></li>
-                        <li class="btn"><a href="#">Keep in touch</a></li>
-                    </ul>
-                </div>
-            </header>
-            <div class="home">
-                <div class="container">
-                <div class="person">
-                    <span class="person-overlay"></span>
-                    <img id="profil" src="./images/Profil.png" alt="">
-                </div>
-                <div class="home-text">
-                    <h6 class="student">STUDENT</h6>
-                    <h1 class="name">Fahmi</h1>
-                    <p class="small-intro">Hello Gaes I'm Fahmi Aprian sgsdglafsd e rerer ge eryetw4 terhsrt r  r gsdgjnds lajsdbfsldjfb ajfbdsjfb</p>
-                </div>
-            </div>
+    <table>
+    <td>
+
+    <div class="container">
+    <h1 class="judul">"Kecerdasan Buatan"</h1>
+    <ol>
+        <li class="point1">Apa Arti Kecerdasan?</li>
+        <dd>Kecerdasan Merupakan kemampuan seseorang untuk memecahkan masalah yang
+            dihadapi, dalam hal ini adalah masalah yang menuntut kemampuan fikiran. Yang dipelajari dari
+            pengalaman dan menggunakan penalaran dalam menanggapi situasi yang baru.</dd>
+        <li class="point2">Konsep Artificial Intelligence ?</li>
+        <dd>Kecerdasan buatan (AI) memungkinkan mesin untuk belajar dari pengalaman, menyesuaikan input-input baru dan  melaksanakan tugas seperti manusia. Sebagian besar contoh AI yang Anda dengar dewasa ini – mulai dari komputer yang bermain catur hingga mobil yang mengendarai sendiri – sangat mengandalkan pembelajaran mendalam dan pemrosesan bahasa alamiah. Dengan menggunakan teknologi ini, komputer dapat dilatih untuk menyelesaikan tugas-tugas tertentu dengan memproses sejumlah besar data dan mengenali pola dalam data.</dd>
+        <li class="point3">Mengapa Perlu Artificial Intelligence ?</li>
+            <dd>Pada dasarnya tujuan AI adalah untuk memberikan kemampuan untuk mengolah input
+                dan output pada perangkat lunak. Karena hampir semua permasalahan dipecahkan dengan
+                 bantuan computer, karena pada dasarnya manusia ingin computer bertindak seperti manusia
+                 karena itu akan mempermudah pekerjaan manusia.</dd>
+        <li class="point4">Arsitektur Artificial Intelligence</li>
+        <span><img class="materi" src="./IAMGES/MATERI.png" alt=""></span>
+        <dt>Input => Goal ,terdiri dari Basis Pengetahuan dan Inference Engine</dt>
+        <dd>Dimana Basis Pengetahuan atau dengan kata lain Knowledge Base merupakan fakta-fakta, teori, dan pemikiran terhubungnya satu komponen dengan komponen yang lainnya.</dd>
+        <dt>Inference Engine dengan kata lain Motor Inferensi merupakan kemampuan menarik</dt>
+        <dd>kesimpulan berdasarkan penglaman. Proses ini melalui mesin contohnya komputer dan robot.</dd>
+        <li class="point5">Contoh Penerapan Artificial Intelligence ?</li>
+    </ol>
+    <ol type="A">
+        <li class="point6">Chatbot</li>
+        <dd>Chatbot sering kita jumpai di fitur chat customer service dengan respons otomatis
+            yang ditampilkan. Kemampuan tersebut muncul berkat adanya teknologi AI. Dalam
+            bisnis, terlebih di era digital, chatbot punya banyak peran. Selain sebagai pusat layanan
+            dan informasi selama 24 jam setiap hari, teknologi tersebut secara tidak langsung
+            berpengaruh pada penjualan.</dd>
+            <li class="point7">Mobil Pintar</li>
+            <dd>Pada Awal Tahun 2020 kita dunia otomotif di gemparkan dengan munculnya mobil
+                pintar keluaran Tesla dimana advanced driver assistance systems (ADAS) yang
+                memungkinkan kendaraan mengemudi secara otomatis atau biasa disebut dengan istilah
+                autopilot. Lalu ,infotainment human-machine interface alias pendukung layanan digital,
+                speech recognition, gesture recognition, eye tracking, dan driver monitoring.</dd>
+                <li class="point8">Kamera Smartphone</li>
+                <dd>Hadirnya AI pada kamera smartphone dapat meningkatkan kemampuan lensa
+                    dalam memotret maupun merekam, mendeteksi obyek dengan otomatis, dan
+                    memaksimalkan sejumlah pengaturan sehingga hasil tangkapan terlihat berkualitas.</dd>
+    </ol>
+    <footer>
+        <div class="hak">
+            <a href="https://fahmiaprian.github.io/">Kunjungi Portfolio saya..!!</a>
+            <p>Learn to code, learn to be creative.</p>
         </div>
-    </div>
+    </footer>
 
-
-    <!-- JQUERY LINK -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- LETTRERING JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
-    <!-- ANIME JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <script>
-
-        $(document).ready(function(){
-            $(".name, .student, .small-intro").lettering();
-
-            // IMAGES OVERLAY EFFECT
-            anime({
-                targets: '.home .person-overlay',
-                translateX: 2100,
-                delay: 1000,
-                duration: 1500,
-                easing: 'easeInSine'
-            })
-            anime({
-                targets: '.home .person img',
-                opacity: 1,
-                delay: 1500,
-                duration: 1500,
-                easing: 'easeInSine' 
-            })
-
-            // STUDENT
-            anime({
-                targets: '.student span',
-                opacity: 1,
-                duration: 1500,
-                easing: 'easeInSine',
-                delay: anime.stagger(100, {start: 3000 })
-            })
-
-            // FAHMI APRIAN  NAME - FADE in
-            anime({
-                targets: '.name span',
-                opacity: 1,
-                duration: 3000,
-                easing: 'easeInSine',
-                delay: anime.stagger(100, {start: 4500 })
-            })
-            
-            // FAHMI APRIAN 2ND ANIMATION UP AND DOWN LETTERS
-            anime({
-                targets: '.name .char1, .name .char3, .name .char5',
-                keyframes: [
-                    {translateY: 100, duration: 1500}
-                ],
-                easing: 'easeInOutExpo',
-                delay: 8000,
-            })
-            anime({
-                targets: '.name .char2, .name .char4',
-                keyframes: [
-                    {translateY: -100, duration: 1500}
-                ],
-                easing: 'easeInOutExpo',
-                delay: 8000,
-            })
-            // LOGO
-            anime({
-                targets: '.logo',
-                opacity: 1,
-                duration: 3000,
-                delay: 9500
-            })
-            // MENU
-            anime({
-                targets: '.menu li',
-                opacity: 1,
-                duration: 3000,
-                delay: anime.stagger(150, {start: 10500})
-            })
-            // INTRO
-            anime({
-                targets: '.small-intro span',
-                opacity: 1,
-                duration: 1000,
-                easing: 'easeInSine',
-                delay: anime.stagger(50, {start: 11000})
-            })
-
-
-        });
-
-    </script>
-
-
-
-
-
+</td>
+</div>
+</table>
 </body>
 </html>
