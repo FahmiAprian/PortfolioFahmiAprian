@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+body {
+  background: url(./images/background.jpg);
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.materi {
+  width: 500px;
+  height: 250px;
+}
+
+dd {
+  text-align: justify;
+}
+
+dt {
+  margin: 10px;
+}
+
+footer {
+  float: right;
+}
+
+.hak {
+  font-size: 15px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.hak a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(11, 178, 255);
+}
+
+table {
+  width: 900px;
+  margin: 70px auto;
+  background-color: rgb(178, 214, 243);
+}
+.point4{
+  font-weight: bold;
+}
+
+.point5{
+  font-weight: bold;
+}
+
+.judul{
+  font-weight: bold;
+}
+
+.potensi{
+  width: 500px;
+  height: 350px;
+}
+
+.self{
+  width: 500px;
+  height: 350px;
+}
