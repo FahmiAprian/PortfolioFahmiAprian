@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -15,10 +15,10 @@ section {
 .main {
   position: relative;
   width: 100%;
-  min-height: 100hv;
+  min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(images/Profil.png);
+  background: url(images/Profile\ 111.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -173,7 +173,7 @@ body {
 }
 
 .section-title:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 56px;
   left: 50%;
@@ -184,7 +184,7 @@ body {
 }
 
 .section-title:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50px;
   left: 50%;
@@ -216,7 +216,7 @@ body {
 .about .content .col-left .img-card {
   position: relative;
   width: 100%;
-  min-height: 450px;
+  min-height: 400px;
 }
 
 .about .content .col-left .img-card img {
@@ -290,7 +290,7 @@ body {
 }
 
 .skills .content .col-right .bar .line:before {
-  content: "";
+  content: '';
   position: absolute;
   height: 100%;
   top: 0;
@@ -301,27 +301,27 @@ body {
 /* Skills color border */
 .skills .content .col-right .bar .html:before {
   width: 95%;
-  background: #e45126;
+  background: #36e426;
 }
 
 .skills .content .col-right .bar .css:before {
   width: 90%;
-  background: #0c73b8;
+  background: #dd8016;
 }
 
 .skills .content .col-right .bar .javascript:before {
   width: 80%;
-  background: #e3a324;
+  background: #00bdf7;
 }
 
 .skills .content .col-right .bar .jquery:before {
   width: 80%;
-  background: #30dd6d;
+  background: #ebe711;
 }
 
 .skills .content .col-right .bar .php:before {
   width: 75%;
-  background: #6d7eb8;
+  background: #311bb1;
 }
 
 .services .content {
